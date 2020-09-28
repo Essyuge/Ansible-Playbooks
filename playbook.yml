@@ -1,5 +1,6 @@
 ---
-- hosts: all
+- name: My first Ansible playbook
+  hosts: all
   become: yes
   tasks:
   - name: Ensure NTP (for time synchronization) is installed.
